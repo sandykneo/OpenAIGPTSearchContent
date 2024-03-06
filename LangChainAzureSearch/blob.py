@@ -5,10 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#connection_string = "DefaultEndpointsProtocol=https;AccountName=sandysearchstorage;AccountKey=q9j1r6q/QfifnyrE+Et4xD8/dRq0jJzYHvIEEwnkG5b80HuqJUglEWkONF4g416+DxFnS9DO72BH+AStM5LPzA==;EndpointSuffix=core.windows.net"
-#container_name = "sandystoragesearch"
-#directory_path = "Data"
-
 blob_service_client = BlobServiceClient.from_connection_string(os.environ.get("AZURE_CONN_STRING"))
 
 for root, dirs, files in os.walk(os.environ.get("DIRECTORY_PATH")):
