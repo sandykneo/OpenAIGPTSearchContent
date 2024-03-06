@@ -1,0 +1,11 @@
+azure-search-documents
+langchain-openai
+azure-identity
+langchain
+openai
+python-dotenv
+azure-storage-blob
+streamlit
+unstructured
+streamlit_chat
+unstructured[pdf]
