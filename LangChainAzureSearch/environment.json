@@ -1,0 +1,35 @@
+
+  {
+    "name": "OPENAI_API_KEY",
+    "value": "XXXXXXXXXX",
+    "slotSetting": false
+  },
+    {
+    "name": "AZURE_COGNITIVE_SEARCH_SERVICE_NAME",
+    "value": "XXXXXXXXXX",
+    "slotSetting": false
+  },
+    {
+    "name": "AZURE_COGNITIVE_SEARCH_INDEX_NAME",
+    "value": "XXXXXXXXXX",
+    "slotSetting": false
+  },
+    {
+    "name": "AZURE_COGNITIVE_SEARCH_API_KEY",
+    "value": "XXXXXXXXXX",
+    "slotSetting": false
+  },
+    {
+    "name": "AZURE_CONN_STRING",
+    "value": "XXXXXXXXXX"
+    "slotSetting": false
+  },  {
+    "name": "CONTAINER_NAME",
+    "value": "XXXXXXXXXX",
+    "slotSetting": false
+  },
+    {
+    "name": "DIRECTORY_PATH",
+    "value": "XXXXXXXXXX",
+    "slotSetting": false
+  }  
