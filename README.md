@@ -15,9 +15,9 @@ Run the below code in the terminal from top to bottom -
 2.Run 2 - python .\azurecognitive_search.py
 3.Run 3 - streamlit run .\application.py  
 4. docker ps
-5. docker login <containerregistryname>.azurecr.io --username <XXXX> --password <XXXX>
-6. docker build -t <containerregistryname>.azurecr.io/app:v1 .
-7. docker push <containerregistryname>.azurecr.io/app:v1
+5. docker login yourcontainerregistryname.azurecr.io --username <XXXX> --password <XXXX>
+6. docker build -t yourcontainerregistryname.azurecr.io/app:v1 .
+7. docker push yourcontainerregistryname.azurecr.io/app:v1
 8. docker images
 
 Note - Rename env.json to .env file for it to work
