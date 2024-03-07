@@ -22,3 +22,5 @@ Run the below code in the terminal from top to bottom -
 
 Note - Rename env.json to .env file for it to work
 environment.json file content would be used to update the configuration settings in Azure App Service
+
+python -m streamlit run application.py --server.port 8000 --server.address 0.0.0.0
