@@ -66,4 +66,5 @@ jobs:
         with:
           app-name: 'sandysearchapp'
           slot-name: 'Production'
+          startup-command: 'streamlit run .\application.py'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_90781047B2C64FBBA2D0A85C4B3E5AF7 }}
