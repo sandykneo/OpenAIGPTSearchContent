@@ -19,6 +19,7 @@ After the setup is complete, run the below code in the terminal from top to bott
 - Run 2 - python .\azurecognitive_search.py
 - Run 3 - streamlit run .\application.py
 
+
 Deployment
 - docker ps
 - docker login yourcontainerregistryname.azurecr.io --username <yourusername> --password <yourpassword>
