@@ -7,5 +7,5 @@ python-dotenv
 azure-storage-blob
 streamlit
 unstructured
-streamlit_chat
+streamlit-chat
 unstructured[pdf]
