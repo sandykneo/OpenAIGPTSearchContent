@@ -2,6 +2,7 @@ azure-search-documents
 langchain-openai
 azure-identity
 langchain
+langchain-community
 openai
 python-dotenv
 azure-storage-blob
